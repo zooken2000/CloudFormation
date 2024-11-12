@@ -89,7 +89,7 @@ Resources:
     Type: AWS::EC2::Instance
     Properties:
       InstanceType: t2.micro
-      KeyName: # 必要に応じてEC2キーペアの名前を指定してください
+      KeyName: hackathon-koizumi-ec2
       SubnetId: !Ref MySubnet
       SecurityGroupIds:
         - !Ref MySecurityGroup
