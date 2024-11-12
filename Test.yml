@@ -93,7 +93,7 @@ Resources:
       SubnetId: !Ref MySubnet
       SecurityGroupIds:
         - !Ref MySecurityGroup
-      ImageId: ami-0c55b159cbfafe1f0 # Amazon Linux 2のAMI ID (リージョンによって異なります)
+      ImageId: ami-08ce76bae392de7dc # Amazon Linux 2のAMI ID (リージョンによって異なります)
       Tags:
         - Key: Name
           Value: MyEC2Instance
